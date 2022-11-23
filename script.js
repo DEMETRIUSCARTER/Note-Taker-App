@@ -8,6 +8,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(express.static('public'));
+
 app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
@@ -28,9 +29,9 @@ note.push(userNote);
 });
 
 app.post('/editNote/:id', function (req, res) {
-console.log(req.params.id);
+    console.log(req.params.id);
     console.log(note);
-    const editNotes = note.item => item.id = req.params.id);
+    const editNotes = note.item (item => item.id = req.params.id);
     note = editNotes;
 
     res.redirect('/');
@@ -38,7 +39,7 @@ console.log(req.params.id);
 
 app.post('/deleteNote/:id', function (req, res) {
     console.log(req.params.id);
-    const deleteNotes = note.filter(item => item.id != req.params.id);
+    const deleteNotes = note.filter (item => item.id != req.params.id);
     note = deleteNotes;
     return res.redirect('/');
 });
