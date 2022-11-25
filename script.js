@@ -43,6 +43,9 @@ app.post('/deleteNote/:id', function (req, res) {
     note = deleteNotes;
     return res.redirect('/');
 });
+app.get('/notes', function (req, res) {
+    res.render('notes', {});
+  });
 
 app.listen(3001, function ()
 {console.log("App is live at Port 3001")
