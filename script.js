@@ -1,5 +1,7 @@
 let express = require('express');
 let bodyParser = require('body-parser');
+const path = require("path");
+
 
 let note = [{ id: 1, body: 'We have text'}, { id: 2, body: 'This is second text'}];
 
@@ -44,7 +46,7 @@ app.post('/deleteNote/:id', function (req, res) {
     return res.redirect('/');
 });
 app.get('/notes', function (req, res) {
-    res.render('notes', {});
+    _res_.sendFile(path.join(__dirname, './public/notes.html'));
   });
 
 app.listen(3001, function ()
