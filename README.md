@@ -25,6 +25,9 @@ CSS,
 NODE JS,
 EXPRESS JS
 
+CREATED WITH THE ASSISTANCE OF THIS TUTUORIAL: https://medium.com/@nnamani.ezinne/simple-note-taking-app-using-node-js-and-ejs-4899321a3342
+
 ## CONTACT
 DEMETRIUS CARTER
 demetriuscarter@gmail.com
+
