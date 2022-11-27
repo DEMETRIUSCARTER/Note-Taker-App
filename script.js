@@ -9,6 +9,7 @@ let app = express();
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+
 app.use(express.static('public'));
 
 app.set('view engine', 'ejs');
@@ -45,8 +46,13 @@ app.post('/deleteNote/:id', function (req, res) {
     note = deleteNotes;
     return res.redirect('/');
 });
+
 app.get('/notes', function (req, res) {
     _res_.sendFile(path.join(__dirname, './public/notes.html'));
+  });
+
+app.get('/api/notes', function (req, res) {
+    _res_.sendFile(path.join(__dirname, '../db/db.json'));
   });
 
 app.listen(3001, function ()
