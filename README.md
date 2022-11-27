@@ -3,6 +3,7 @@
 
 ## TABLE OF CONTENTS
 * [General Info](#general-information)
+* [Usage](#usage)
 * [Website Link](#website-link)
 * [Technologies Used](#technologies-used)
 * [Contact](#contact)
@@ -13,6 +14,11 @@ An application that can be used to write and save notes.
 
 <a href="https://ibb.co/51Kr7Dv"><img src="https://i.ibb.co/dfmPh96/Screen-Shot-2022-11-27-at-10-31-52-AM.png" alt="Screen-Shot-2022-11-27-at-10-31-52-AM" border="0"></a>
 
+
+## USAGE
+Clone this repository,
+Open terminal and install NodeJs and ExpressJS
+Run "node script.js" command to start application
 
  
 
