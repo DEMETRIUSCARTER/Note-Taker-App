@@ -48,11 +48,11 @@ app.post('/deleteNote/:id', function (req, res) {
 });
 
 app.get('/notes', function (req, res) {
-    _res_.sendFile(path.join(__dirname, './public/notes.html'));
+    res.sendFile(path.join(__dirname, './public/notes.html'));
   });
 
 app.get('/api/notes', function (req, res) {
-    _res_.sendFile(path.join(__dirname, '../db/db.json'));
+    res.sendFile(path.join(__dirname, '../db/db.json'));
   });
 
 app.listen(3001, function ()
