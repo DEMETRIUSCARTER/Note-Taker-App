@@ -17,7 +17,7 @@ An application that can be used to write and save notes.
 
 ## USAGE
 Clone this repository https://github.com/DEMETRIUSCARTER/Note-Taker-App ,
-Open terminal and install NodeJs and ExpressJS
+Open terminal and install NodeJs and ExpressJS,
 Run "node script.js" command to start application
 
  
