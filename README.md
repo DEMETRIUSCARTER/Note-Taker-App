@@ -1,5 +1,5 @@
 # PROJECT NAME
-> Note Taking App
+> Note Taker App
 
 ## TABLE OF CONTENTS
 * [General Info](#general-information)
