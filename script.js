@@ -2,7 +2,6 @@ let express = require('express');
 let bodyParser = require('body-parser');
 const path = require("path");
 
-
 let note = [{ id: 1, body: 'We have text'}, { id: 2, body: 'This is second text'}];
 
 let app = express();
